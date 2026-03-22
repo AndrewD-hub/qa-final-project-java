@@ -1,0 +1,20 @@
+API Test: Verify GET /todos/1 returns status 200 and contains a title
+
+Arrange:
+1. Set the request URL to https://jsonplaceholder.typicode.com/todos/1
+2. Prepare the request
+3. Initialize the API client
+
+Act:
+4. Send a GET request to the endpoint
+5. Save the response
+
+Assert:
+6. Verify that the response status code is 200
+7. Verify that the response body is not empty
+8. Verify that the response contains the field "title"
+9. Verify that the "title" field is not null or empty
+
+Expected Result:
+- The API returns status code 200
+- The response contains a valid title field
