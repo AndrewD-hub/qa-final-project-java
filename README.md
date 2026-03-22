@@ -1,4 +1,4 @@
-# ![CI](https://github.com/AndrewD/qa-final-project-java/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/AndrewD-hub/qa-final-project-java/actions/workflows/ci.yml/badge.svg)
 
 # qa-final-project-java
 
