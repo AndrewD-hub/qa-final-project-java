@@ -54,4 +54,3 @@ Validation rules:
 Used:
 - `do-while` loop
 - `for` loop
-for loop
