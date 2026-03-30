@@ -64,28 +64,28 @@ Used:
 Added source files:
 
 - `src/main/java/com/andrewd/homework/BrowserType.java`
--`src/main/java/com/andrewd/homework/BrowserConfig.java`
--`src/main/java/com/andrewd/homework/TestConfigRunner.java`
+- `src/main/java/com/andrewd/homework/BrowserConfig.java`
+- `src/main/java/com/andrewd/homework/TestConfigRunner.java`
 
 Implemented concepts:
 
--`enum` for browser types
--overloaded constructors
--constructor chaining with `this()`
--static factory method
--console output for configuration display
+- `enum` for browser types
+- overloaded constructors
+- constructor chaining with `this()`
+- static factory method
+- console output for configuration display
 
 Available browser types:
 
--CHROME
--FIREFOX
--EDGE
+- CHROME
+- FIREFOX
+- EDGE
 
 BrowserConfig supports:
 
--browser type
--browser version
--headless mode
+- browser type
+- browser version
+- headless mode
 
 Factory method included:
 
