@@ -33,7 +33,12 @@ qa-final-project-java/
 │   │                   ├── UsernameValidator.java
 │   │                   ├── BrowserType.java
 │   │                   ├── BrowserConfig.java
-│   │                   └── TestConfigRunner.java
+│   │                   ├── TestConfigRunner.java
+│   │                   ├── User.java
+│   │                   ├── AdminUser.java
+│   │                   ├── InvalidUserDataException.java
+│   │                   ├── UserRepository.java
+│   │                   └── Main.java
 │   └── test/
 │       └── java/
 │           └── com/
@@ -94,3 +99,29 @@ Factory method included:
 Runner class:
 
 `TestConfigRunner` demonstrates all constructors and the factory method
+
+## Session 11 Homework - OOP and Exception Handling
+
+This homework extends the final Java QA project with a small OOP-based user management example.
+
+### Implemented features
+- custom checked exception: `InvalidUserDataException`
+- base class: `User`
+- derived class: `AdminUser`
+- repository class: `UserRepository`
+- validation for invalid user data
+- exception handling with separate `try-catch` blocks
+- display of valid users added successfully
+
+### Validation rules
+The application throws `InvalidUserDataException` when:
+- the user object is `null`
+- the username is `null` or shorter than 3 characters
+- the age is negative
+
+### Classes added
+- `User.java`
+- `AdminUser.java`
+- `InvalidUserDataException.java`
+- `UserRepository.java`
+- `Main.java`
